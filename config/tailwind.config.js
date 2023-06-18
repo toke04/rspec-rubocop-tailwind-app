@@ -21,3 +21,5 @@ module.exports = {
     require('@tailwindcss/container-queries'),
   ]
 }
+
+module.exports = { plugins: [require("daisyui")] }
