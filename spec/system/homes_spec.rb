@@ -11,6 +11,7 @@ RSpec.describe 'Home', type: :system do
       visit '/'
 
       expect(page).to have_content('Home#top')
+      expect(page.status_code).to eq(200)
     end
   end
 end
